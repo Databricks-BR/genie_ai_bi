@@ -1,13 +1,13 @@
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_handson_sql.png">
 
-# Hands-On LAB 05 - Explorando o Dashboard (Painel Gerencial)
+# Hands-On LAB 05 - Criando uma visualização na QUERY
 
 Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de Analytics (SQL, Query, Dask, DataViz, SQL end-point).
 
 
 ## Objetivos do Exercício
 
-O objetivo desse laboratório é explorar as funcionalidade de consultas com Gráficos de Visualização e Filtros para depois montar um Painel Gerencial</br>
+O objetivo desse laboratório é explorar as funcionalidade de consultas com Gráficos de Visualização e Filtros</br>
 </br>
 
 Vamos utilizar o "Editor SQL".
@@ -78,59 +78,3 @@ Resultado ficará como abaixo:
 Salve o resultado da Query, com o nome:   "Query_Historico_dolar_" +  <SEU_NOME>.
 </br></br></br>
 
-## Exercício 05.03 - Criando o Dashboard
-
-No Menu Lateral, escolha a opção DASHBOARDS:
-
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_08.png" style="height: 150px;">
-</br></br>
-
-Clique na opção **CREATE DASHBOARD**
-
-</br></br>
-</br></br>
-
-Na tela do Dashboard, clique no botão **"ADD"**, e escolha a opção:  "**TEXT BOX**".
-
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_12.png" style="height: 100px;">
-
-No campo texto, digite conforme abaixo:
-
-``` md
-
-![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_handson_sql.png)
-
-
-```
-
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_13.png" style="height: 300px;">
-
-Repita a operação.  Clique no botão **ADD**, e novamente a opção "Text Box".  Digite conforme abaixo:
-
-``` md
-
-
-![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_dolar.png)
-
-```
-
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_14.png" style="height: 200px;">
-
-Clique novamente no botão ADD, e selecione a opção "**VISUALIZATION**".
-
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_15.png" style="height: 200px;">
-
-Escolha o nome da Query que foi gravada no exercício anterior.
-
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_16.png" style="height: 250px;">
-
-Clique novamente no botão ADD, e selecione a opção "**FILTER**", e configure conforme abaixo:
-
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_17.png" style="height: 200px;">
-
-</br></br></br>
-
-O Resultado final deve ficar conforme abaixo.   Grave seu Dashboard.
-
-</br></br>
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_final.png" style="height: 600px;">
