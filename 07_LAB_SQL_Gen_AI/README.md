@@ -45,10 +45,4 @@ SELECT ai_translate('Hello, how are you?', 'br') as traducao;
 </br></br>
 </br></br>
 
-**Maiores exemplos, faça a importação do Notebook exemplo:**
 
-``` md
-
-databricks_notebook/sql_ai/GenAi_Hackathon_template_SQL_AI.sql
-
-```
