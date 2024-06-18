@@ -15,10 +15,11 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 | 04 | Laboratório 03 - Consultas avançadas, Query History e Query Profiler               | 20 min |
 | 05 | Laboratório 04 - Criação de um Alerta                                              | 10 min |
 | 06 | Laboratório 05 - Criação de Visualização na Query                                  | 10 min |
-| 07 | Laboratório 05 - Criação de um Painel (Dashboard _ LAKEVIEW)                       | 20 min |
-| 08 | Considerações finais, Integração de Soluções e Referências Adicionais              | 30 min |
-| 09 | Perguntas e Respostas                                                              | 15 min |
-| 10 | Pesquisa de Satisfação                                                             |  5 min |
+| 07 | Laboratório 06 - Criação de um Painel (Dashboard - LAKEVIEW)                       | 20 min |
+| 08 | Laboratório 07 - Funções de Generative AI com SQL                                  | 10 min |
+| 09 | Considerações finais, Integração de Soluções e Referências Adicionais              |  5 min |
+| 10 | Perguntas e Respostas                                                              | 15 min |
+| 11 | Pesquisa de Satisfação                                                             |  5 min |
 
 </br>
 
