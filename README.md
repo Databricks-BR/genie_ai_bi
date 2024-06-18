@@ -9,15 +9,16 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 
 | # | Tópicos | Duração |
 | -- | -- | -- |
-| 1 | Conceito de Lakehouse, Databricks SQL, Custo eficiente, SQL Serverless, Menus e UI | 30 min |
-| 2 | Laboratório 01 - Comandos básicos em SQL no  Editor de SQL e Unity Catalog         | 30 min |
-| 3 | Laboratório 02 - Ingestão de tabelas CSV, Uso do Notebook e Data Explorer          | 30 min |
-| 4 | Laboratório 03 - Consultas avançadas, Query History e Query Profiler               | 30 min |
-| 5 | Laboratório 04 - Criação de um Alerta                                              | 30 min |
-| 6 | Laboratório 05 - Criação de um Painel (Dashboard)                                  | 30 min |
-| 7 | Considerações finais, Integração de Soluções e Referências Adicionais              | 30 min |
-| 8 | Perguntas e Respostas                                                              | 15 min |
-| 9 | Pesquisa de Satisfação                                                             |  5 min |
+| 01 | Conceito de Lakehouse, Databricks SQL, Custo eficiente, SQL Serverless, Menus e UI | 10 min |
+| 02 | Laboratório 01 - Comandos básicos em SQL no  Editor de SQL e Unity Catalog         | 20 min |
+| 03 | Laboratório 02 - Ingestão de tabelas CSV, Uso do Notebook e Data Explorer          | 10 min |
+| 04 | Laboratório 03 - Consultas avançadas, Query History e Query Profiler               | 20 min |
+| 05 | Laboratório 04 - Criação de um Alerta                                              | 10 min |
+| 06 | Laboratório 05 - Criação de Visualização na Query                                  | 10 min |
+| 07 | Laboratório 05 - Criação de um Painel (Dashboard _ LAKEVIEW)                       | 20 min |
+| 08 | Considerações finais, Integração de Soluções e Referências Adicionais              | 30 min |
+| 09 | Perguntas e Respostas                                                              | 15 min |
+| 10 | Pesquisa de Satisfação                                                             |  5 min |
 
 </br>
 
