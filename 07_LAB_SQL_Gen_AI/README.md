@@ -5,7 +5,7 @@
 Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de Analytics (SQL, Query, Dask, DataViz, SQL end-point).
 
 
-## Exercício 07.01 - Sobre as Funcionalidades:
+## Sobre as Funcionalidades:
 
 
 Uma forma de aplicar os modelos de IA Generativa é utilizar as Databricks AI SQL Functions.
@@ -32,15 +32,23 @@ Existem funções nativas para executar tarefas pré-definidas ou enviar qualque
 
 
 </br></br></br></br>
-Para esse exercício, vamos explorar as funcionalidades citadas,  conforme exemplo abaixo:
+Para esse exercício, vamos explorar as funcionalidades citadas, conforme os exercícios abaixo:
 
+
+## Exercício 07.01 - Usando uma função de IA
 
 ``` md
+SELECT ai_gen("Crie uma breve avaliação de produto em português, onde o cliente está muito satisfeito com o vestido comprado.");
+```
 
-SELECT ai_translate('Hello, how are you?', 'br') as traducao;
-
+</br></br>
+## Exercício 07.02 - Aplicando funções de IA Genereativa em uma base de dados
 
 ```
+USE academy.<seu_nome_login>;
+SELECT ai_analyze_sentiment(avaliacao) AS sentimento, ai_extract(avaliacao, ARRAY('produto')) AS produtos FROM bronze_avaliacoes;
+```
+
 
 </br></br>
 </br></br>

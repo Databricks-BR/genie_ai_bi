@@ -1,0 +1,11 @@
+data,id_avaliacao,id_cliente,avaliacao
+2022-01-01,123456789,1,Comprei o celular XYZ e estou muito satisfeito com a qualidade da câmera e da tela. O design é moderno e elegante. A bateria dura bastante tempo e o desempenho é excelente. Recomendo!
+2022-01-02,234567890,2,"Comprei o notebook ABC e estou muito insatisfeito com a qualidade da tela. As cores são fracas e a resolução é baixa. Além disso, o desempenho é lento e trava com frequência. Não recomendo!"
+2022-01-03,345678901,3,"Comprei o fone de ouvido DEF e estou neutro em relação ao produto. A qualidade do som é boa, mas o design é simples demais. O preço é justo, mas existem opções melhores no mercado."
+2022-01-04,456789012,4,"Comprei o tablet GHI e estou muito insatisfeito com a qualidade da bateria. Ela dura muito pouco tempo e demora muito para carregar. Além disso, o desempenho é lento e trava com frequência. Não recomendo!"
+2022-01-05,567890123,5,"Comprei o celular JKL e estou neutro em relação ao produto. A qualidade da câmera é boa, mas o design é simples demais. O preço é justo, mas existem opções melhores no mercado."
+2022-01-06,678901234,6,"Comprei o notebook MNO e estou muito insatisfeito com a qualidade da bateria. Ela dura muito pouco tempo e demora muito para carregar. Além disso, o desempenho é lento e trava com frequência. Não recomendo!"
+2022-01-07,789012345,7,Comprei o fone de ouvido PQR e estou muito satisfeito com a qualidade do som. Ele é nítido e potente. O design é moderno e confortável. Recomendo!
+2022-01-08,890123456,8,"Comprei o tablet STU e estou muito insatisfeito com a qualidade da tela. As cores são fracas e a resolução é baixa. Além disso, o desempenho é lento e trava com frequência. Não recomendo!"
+2022-01-09,901234567,9,"Comprei o celular VWX e estou neutro em relação ao produto. A qualidade da câmera é boa, mas o design é simples demais. O preço é justo, mas existem opções melhores no mercado."
+2022-01-10,123456780,10,"Comprei o notebook YZA e estou muito insatisfeito com a qualidade da bateria. Ela dura muito pouco tempo e demora muito para carregar. Além disso, o desempenho é lento e trava com frequência. Não recomendo!"
