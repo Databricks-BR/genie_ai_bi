@@ -1,10 +1,9 @@
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_handson_sql.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/header_genie_sql.png">
 
 # Databricks SQL Labs 
 
-Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de Analytics (SQL, Query, Dask, DataViz, SQL end-point).
-
+Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de Genie Spaces e Dashboard AI/BI.
 ## Ementa do Curso
 
 | # | Tópicos | Duração |
@@ -13,10 +12,8 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 | 02 | Laboratório 01 - Comandos básicos em SQL no  Editor de SQL e Unity Catalog         | 20 min |
 | 03 | Laboratório 02 - Ingestão de tabelas CSV, Uso do Notebook e Data Explorer          | 10 min |
 | 04 | Laboratório 03 - Consultas avançadas, Query History e Query Profiler               | 20 min |
-| 05 | Laboratório 04 - Criação de um Alerta                                              | 10 min |
-| 06 | Laboratório 05 - Criação de Visualização na Query                                  | 10 min |
-| 07 | Laboratório 06 - Criação de um Painel (Dashboard - LAKEVIEW)                       | 20 min |
-| 08 | Laboratório 07 - Funções de Generative AI com SQL                                  | 10 min |
+| 07 | Laboratório 04 - Criação de um Painel (Dashboard AI/BI)                            | 30 min |
+| 08 | Laboratório 05 - Genie Spaces                                                      | 30 min |
 | 09 | Considerações finais, Integração de Soluções e Referências Adicionais              |  5 min |
 | 10 | Perguntas e Respostas                                                              | 15 min |
 | 11 | Pesquisa de Satisfação                                                             |  5 min |
