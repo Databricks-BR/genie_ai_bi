@@ -1,5 +1,5 @@
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/header_genie_sql.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/header_genie.png">
 
 # Databricks SQL Labs 
 
