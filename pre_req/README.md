@@ -19,7 +19,7 @@ Caso não esteja habilitado, com o usuário de ADMIN do Databricks, seguir as in
 * [AZURE - Habilitando o GENIE](https://learn.microsoft.com/en-us/azure/databricks/genie/#enable-genie)
 * (AWS/GCP - Habilitando o GENIE](https://docs.databricks.com/en/genie/index.html#enable-genie-spaces-in-your-workspace)
 
-</br></br>
+</br>
 
 ## Referências:
 
