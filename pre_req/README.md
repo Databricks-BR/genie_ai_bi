@@ -17,7 +17,7 @@ Para verificar se a "GENIE" está habilitada, verifique a sessão SQL no menu es
 Caso não esteja habilitado, com o usuário de ADMIN do Databricks, seguir as instruções:
 
 * [AZURE - Habilitando o GENIE](https://learn.microsoft.com/en-us/azure/databricks/genie/#enable-genie)
-* (AWS/GCP - Habilitando o GENIE](https://docs.databricks.com/en/genie/index.html#enable-genie-spaces-in-your-workspace)
+* [AWS/GCP - Habilitando o GENIE](https://docs.databricks.com/en/genie/index.html#enable-genie-spaces-in-your-workspace)
 
 </br>
 
