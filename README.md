@@ -29,6 +29,7 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de Ge
 * [Genie AI/BI - Adicionando Instruções no Prompt](https://docs.databricks.com/pt/genie/index.html#provide-instructions)
 * [Genie AI/BI - Boas Práticas](https://docs.databricks.com/pt/genie/best-practices.html)
 * [BLOG - Introducing AI/BI: Intelligent Analytics for Real-World Data](https://www.databricks.com/blog/introducing-aibi-intelligent-analytics-real-world-data)
+* [BLOG - 7 Techniques of Semantic Modeling for Databricks Genie](https://medium.com/@kyle.hale/7-techniques-of-semantic-modeling-for-databricks-genie-b117460efe10)
 
 </br></br>
 
