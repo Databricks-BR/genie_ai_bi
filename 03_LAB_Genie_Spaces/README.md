@@ -12,6 +12,7 @@
 
 ***Caso não tenha feito ainda, carregue os dados conforme descrito no [Lab 01 - Importando os dados](https://github.com/Databricks-BR/genie_ai_bi/blob/main/01_LAB_importando_dados/README.md)***
 
+</br></br>
 
 ## Exercício 03.01 - Criar AI/BI Genie
 
@@ -20,6 +21,8 @@ Vamos começar criando uma Genie para fazer nossas perguntas. Para isso, vamos s
 1. No menu principal (à esquerda), clique em `New` > `Genie space`
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/genie_01.png">
+
+</br></br>
 
 2. Configure sua Genie
     - Crie um nome para a sua Genie, por exemplo `<suas iniciais> Genie de Vendas`
@@ -32,7 +35,7 @@ Vamos começar criando uma Genie para fazer nossas perguntas. Para isso, vamos s
     - Clique em `Save`
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/genie_02.png" width=800>
-
+</br></br>
 
 ## Exercício 03.02 - Fazer perguntas ao AI/BI Genie
 
@@ -41,6 +44,7 @@ Vamos começar criando uma Genie para fazer nossas perguntas. Para isso, vamos s
 * Mantenha somente os 10 produtos com maior faturamento
 * Monte um gráfico de barras
 
+</br></br>
 
 ## Exercício 03.03 - Fazer perguntas avançadas
 
@@ -48,6 +52,7 @@ Vamos começar criando uma Genie para fazer nossas perguntas. Para isso, vamos s
 * Qual o valor total vendido de ansiolíticos?
 * Quais produtos tiveram uma proporção de vendas por estoque maior que 0.8 em Outubro de 2022?
 
+</br></br>
 
 ## Exercício 03.04 - Usando comentários
 
@@ -56,20 +61,25 @@ Faça a pergunta:
 * Use a célula abaixo para adicionar um comentário na tabela `dim_loja`
 * Faça novamente a pergunta anterior
 
+``` sql
 
 ALTER TABLE dim_loja ALTER COLUMN nlj COMMENT 'Nome da loja'
 
+```
+</br></br>
 
 ## Exercício 03.05 - Usando chaves primárias
 
 * Use a célula abaixo para adicionar as chaves primárias e estrangeiras nas tabelas `dim_loja` e `vendas`
 * Faça novamente a pergunta anterior
 
-
+``` sql
 
 ALTER TABLE dim_loja ADD CONSTRAINT pk_dim_loja PRIMARY KEY (cod);
 ALTER TABLE vendas ADD CONSTRAINT fk_venda_dim_loja FOREIGN KEY (id_loja) REFERENCES dim_loja(cod);
 
+```
+</br></br>
 
 ## Exercício 03.06 - Usando instruções
 
@@ -79,6 +89,7 @@ Faça a pergunta:
 Adicione a instrução:
   - `* para calcular indicadores sobre prescrição use categoria_regulatoria <> 'GENÉRICO'`
 Faça novamente a pergunta anterior
+</br></br>
 
 ## Exercício 03.07 - Usando exemplos de queries
 
@@ -87,6 +98,7 @@ Faça novamente a pergunta anterior
 - Adicione o exemplo de query abaixo:
   - `SELECT window.end AS dt_venda, SUM(vl_venda) FROM vendas GROUP BY WINDOW(dt_venda, '90 days', '1 day') `
 - Faça novamente a pergunta anterior
+</br></br>
 
 ## Exercício 03.08 - Usando funções
 
@@ -98,7 +110,7 @@ Faça novamente a pergunta anterior
 
 
 
-
+``` sql
 
 CREATE OR REPLACE FUNCTION calc_lucro(medicamento STRING)
   RETURNS TABLE(nome_medicamento STRING, lucro_projetado DOUBLE)
@@ -112,5 +124,10 @@ CREATE OR REPLACE FUNCTION calc_lucro(medicamento STRING)
     ON v.id_produto = m.id_produto
     WHERE m.nome_medicamento = calc_lucro.medicamento
     GROUP BY ALL    
+
+
+```
+</br></br>
+
 
   
