@@ -111,15 +111,23 @@ Para isso, entre na opção "**SQL Editor**" no MENU lateral do Databricks, </br
 selecione o Catálogo e o Schema na barra superior do Editor de Query,</br>
 e escreva o texto abaixo:</br>
 
-``` sql
-Selecione o nome da empresa, stock, mínimo valor de fechamento, máximo valor de fechamento e percentual de variação entre o mínimo e o máximo valor de fechamento da tabela stock_bigtech agrupando por empresa e stock
+``` 
+
+Selecione o nome da empresa, stock,
+mínimo valor de fechamento, máximo valor de fechamento
+e percentual de variação entre o mínimo e o máximo valor de fechamento
+da tabela stock_bigtech
+agrupando por empresa e stock
+
 ```
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_09.png" width="700px">
 </br></br></br>
 
-xxxxx
-
+Acrescente ao resultado a linha de concatenação com o nome da ação (STOCK), </br>
+com o LINK (URL) de uma imagem. </br>
+Ao executar a query (botão RUN),</br>
+o resultado esperado é o mostrado abaixo:</br>
 
 ``` sql
 
@@ -137,6 +145,17 @@ GROUP BY company, stock;
 
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_10.png" width="700px">
+</br></br></br>
+
+## Exercício 02.06 - Adicionando o NOVO contexto de dados ao Dashboard
+
+Agora vamos adicionar o novo contexto de dados (calculado na Query);</br>
+como mais uma fonte de dados no Painel.</br>
+Para isso, volte na opção "**Dashboards**" no menu lateral Databricks,</br>
+Escolha o nome do Painel que foi criado,</br>
+e Clique no botão (combo box) de "**Published**" para "**Draft**".
+</br></br>
+<img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_10b.png" width="700px">
 </br></br></br>
 
 xxxxx
