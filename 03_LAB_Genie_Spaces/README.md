@@ -109,6 +109,7 @@ Vamos então adicionar chaves primárias e estrangeiras nessas tabelas para que 
 1. Use o SQL Editor para adicionar as chaves primárias e estrangeiras nas tabelas `dim_loja` e `vendas`
 
 ``` sql
+alter table dim_loja alter column cod set not null;
 ALTER TABLE dim_loja ADD CONSTRAINT pk_dim_loja PRIMARY KEY (cod);
 ALTER TABLE vendas ADD CONSTRAINT fk_venda_dim_loja FOREIGN KEY (id_loja) REFERENCES dim_loja(cod);
 ```
