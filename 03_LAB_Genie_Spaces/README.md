@@ -107,7 +107,8 @@ Aparentemente, a coluna **id_loja** da tabela **dim_loja** não é o melhor camp
 Vamos então adicionar chaves primárias e estrangeiras nessas tabelas para que a Genie não precise inferir como fazer esse cruzamento!
 
 1. Use o SQL Editor para adicionar as chaves primárias e estrangeiras nas tabelas `dim_loja` e `vendas`
-```
+
+``` sql
 ALTER TABLE dim_loja ADD CONSTRAINT pk_dim_loja PRIMARY KEY (cod);
 ALTER TABLE vendas ADD CONSTRAINT fk_venda_dim_loja FOREIGN KEY (id_loja) REFERENCES dim_loja(cod);
 ```
@@ -185,7 +186,8 @@ Vamos ver na prática:
     - Qual o lucro projetado do AAS?
 
 2. Realmente, não temos informações suficientes na nossa base para responder à essa pergunta! Para isso, crie a função abaixo com a lógica do cálculo do lucro médio projetado de um produto:
-```
+
+``` sql
 CREATE OR REPLACE FUNCTION calc_lucro(medicamento STRING)
   RETURNS TABLE(nome_medicamento STRING, lucro_projetado DOUBLE)
   COMMENT 'Use esta função para calcular o lucro projetado de um medicamento'
