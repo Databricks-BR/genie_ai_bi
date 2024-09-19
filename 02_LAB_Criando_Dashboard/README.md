@@ -126,8 +126,6 @@ agrupando por empresa e stock
 
 Acrescente ao resultado a linha de concatenação com o nome da ação (STOCK), </br>
 com o LINK (URL) de uma imagem. </br>
-Ao executar a query (botão RUN),</br>
-o resultado esperado é o mostrado abaixo:</br>
 
 ``` sql
 
@@ -142,8 +140,9 @@ FROM luis_assuncao.genie_aibi.stock_bigtech
 GROUP BY company, stock;
 
 ```
-
-</br></br>
+</br>
+Ao executar a query (botão RUN),</br>
+o resultado esperado é o mostrado abaixo:</br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_10.png" width="700px">
 </br></br></br>
 
@@ -158,37 +157,65 @@ e Clique no botão (combo box) de "**Published**" para "**Draft**".
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_10b.png" width="700px">
 </br></br></br>
 
-xxxxx
+Clique na opção "**Data**".</br>
+No item "Create another Dataset"</br>
+clique no botão "**+Create from SQL**".</br>
+
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_11.png" width="700px">
 </br></br></br>
 
-xxxxx
-</br></br>
+Faça o Copy&Paste do código SQL gerado no exercício anterior:
+
+``` sql
+
+SELECT 
+  "https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/" || stock || ".png" AS image,
+  company,
+  stock,
+  MIN(close) AS min_close,
+  MAX(close) AS max_close,
+  ((MAX(close) - MIN(close)) / MIN(close) * 100) AS percentual_variacao
+FROM luis_assuncao.genie_aibi.stock_bigtech
+GROUP BY company, stock;
+
+```
+E depois clique no botão "**RUN**"
+</br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_12.png" width="700px">
 </br></br></br>
 
-xxxxx
+## Exercício 02.07 - Adicionando um novo Gráfico com o contexto novo de dados
+
+Clique no menu azul suspenso na posição inferior do painel, </br>
+no botão com o ícone de gráfico, </br>
+e na barra de configuração (lateral direita do painel),</br>
+escolha o nome do nome Dataset (que veio da Query SQL). 
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_13.png" width="700px">
 </br></br></br>
 
-xxxxx
+Configure o tipo de Visualização para "Tabela"(Table).</br>
+Marque a opção para incluir TODOS os campos na tabela.
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_14.png" width="700px">
 </br></br></br>
 
-xxxxx
-</br></br>
+Na configuração, clique no campo(coluna) com o nome de "**image**".</br>
+Na opção de "Display", configure como "image". </br>
+
+</br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_15.png" width="700px">
 </br></br></br>
 
-xxxxx
+Na opção de "SIZE", coloque o valor de "25" no campo "width".</br>
+Na opção de "Default column width", coloque o valor de "150".
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_16.png" width="700px">
 </br></br></br>
 
-xxxxx
+Como resultado esperado, teremos a figura abaixo.</br>
+Salve (Publique) novamente o Painel.
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_17.png" width="700px">
 </br></br></br>
