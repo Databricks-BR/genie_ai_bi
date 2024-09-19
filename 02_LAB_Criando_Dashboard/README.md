@@ -106,12 +106,35 @@ Clique no botão "**Publish**" para publicar o Painel.
 
 ## Exercício 02.05 - Criando um NOVO contexto de dados
 
-xxxxx
+Vamos criar agora um novo contexto de dados.</br>
+Para isso, entre na opção "**SQL Editor**" no MENU lateral do Databricks, </br>
+selecione o Catálogo e o Schema na barra superior do Editor de Query,</br>
+e escreva o texto abaixo:</br>
+
+``` sql
+Selecione o nome da empresa, stock, mínimo valor de fechamento, máximo valor de fechamento e percentual de variação entre o mínimo e o máximo valor de fechamento da tabela stock_bigtech agrupando por empresa e stock
+```
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_09.png" width="700px">
 </br></br></br>
 
 xxxxx
+
+
+``` sql
+
+SELECT 
+  "https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/" || stock || ".png" AS image,
+  company,
+  stock,
+  MIN(close) AS min_close,
+  MAX(close) AS max_close,
+  ((MAX(close) - MIN(close)) / MIN(close) * 100) AS percentual_variacao
+FROM luis_assuncao.genie_aibi.stock_bigtech
+GROUP BY company, stock;
+
+```
+
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_10.png" width="700px">
 </br></br></br>
