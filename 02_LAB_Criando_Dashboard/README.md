@@ -52,7 +52,7 @@ Deixe a largura do gráfico ocupando a tela de lado a lado.
 ## Exercício 02.02 - Segundo elemento gráfico
 
 Vamos criar um novo elemento gráfico.</br>
-No menu azul suspendo, que fica na parte inferior do painel, </br>
+No menu azul suspenso, que fica na parte inferior do painel, </br>
 Clique no segundo botão (com o ícone de um gráfico).</br>
 </br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_botao.png" width="200px">
@@ -83,15 +83,28 @@ Escolha o atributo (Field):  "**company**"
 
 ## Exercício 02.04 - Alterando o título do painel por uma imagem
 
-No box de texto
+No box de texto do títudo do painel, apague o texto anterior, </br>
+e substitua pelo código (markdown) abaixo: </br>
+</br>
+
+``` sql
+![image](https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/header_painel.png)
+```
+
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_07.png" width="700px">
 </br></br></br>
 
-xxxxx
+O Painel ficará com a aparência da imagem abaixo.</br>
+Faça o devido alinhamento do gráfico no layout.</br>
+Altere o nome do Dashboard na barra superior.</br>
+Clique no botão "**Publish**" para publicar o Painel.
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/genie_ai_bi/main/images/lab2_08.png" width="700px">
 </br></br></br>
+
+
+## Exercício 02.05 - Criando um NOVO contexto de dados
 
 xxxxx
 </br></br>
